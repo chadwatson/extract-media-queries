@@ -1,16 +1,16 @@
 {
-  "name": "media-query-extractor",
-  "version": "0.1.1",
-  "description": "Groups css rules by media queries and extracts them to different files",
-  "main": "./src/media-query-extractor.js",
+  "name": "extract-media-queries",
+  "version": "0.1.0",
+  "description": "Extracts media queries and pipes them to stdout.",
+  "main": "./src/extract.js",
   "bin": {
-    "media-query-extractor": "./bin/media-query-extractor.js"
+    "extract-mq": "./bin/extract-mq.js"
   },
   "dependencies": {
+    "commander": "^2.9.0",
     "css": "^2.1.0",
     "css-parse": "^2.0.0",
-    "css-stringify": "^2.0.0",
-    "minimist": "^1.1.0"
+    "css-stringify": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -18,15 +18,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stol/media-query-extractor.git"
+    "url": "https://github.com/chadwatson/extract-media-queries.git"
   },
   "keywords": [
     "media-query"
   ],
-  "author": "Stol",
+  "author": "Chad Watson <chad@40digits.com> (http://chadwatson.io/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stol/media-query-extractor/issues"
+    "url": "https://github.com/chadwatson/extract-media-queries/issues"
   },
-  "homepage": "https://github.com/stol/media-query-extractor"
+  "homepage": "https://github.com/chadwatson/extract-media-queries"
 }
